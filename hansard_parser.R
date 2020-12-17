@@ -11,7 +11,7 @@ file_paths <- list.files(data_files, recursive = TRUE, pattern = "csv$", full.na
 
 file_name <- #OUTPUT FILE NAME
 
-keywords <- c( #KEY WORDS)
+keywords <- c( #KEY WORDS; PUT IN LOWERCASE)
 
 #create empty csv file with headers to write data to
 create_data <- function(
